@@ -1,12 +1,9 @@
-alert("Olá Lucas")
-console.log("Oi João");
-
-var título = document.querySelector("h1");
+var título = document.querySelector(".título");
 título.textContent = "Lucas Nutrição";
 
-var trPaulo = document.querySelector("#Paulo");
+var paciente = document.querySelector("#primeiro-paciente");
+var tdPeso = paciente.querySelector(".info-peso");
+var peso = tdPeso.textContent;
 
-console.log(trPaulo);
-
-var tdPeso = trPaulo.querySelector(".info-peso");
-tdPeso.textContent = "150";
+var tdAltura = paciente.querySelector(".info-altura");
+var altura = tdAltura.textContent;
